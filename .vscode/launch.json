@@ -7,18 +7,21 @@
         {
             "name": "debug",
             "request": "launch",
+            "noDebug": true,
             "type": "dart"
         },
         {
             "name": "profile",
             "request": "launch",
             "type": "dart",
+            "noDebug": true,
             "flutterMode": "profile"
         },
         {
             "name": "release",
             "request": "launch",
             "type": "dart",
+            "noDebug": true,
             "flutterMode": "release"
         }
     ]
